@@ -2,7 +2,7 @@
 
 面向长代码摘要生成的结构感知稀疏注意力研究。模型结合 Global-local、Top-k 注意力以及基于抽象语法树（AST）和控制流图（CFG）的结构信息，旨在减少注意力冗余并建模长距离代码依赖。
 
-**[阅读论文 PDF](paper/sabcs.pdf)** · [BibTeX 引用](paper/citation.bib)
+**[阅读论文 PDF](paper/sabcs.pdf)** · [BibTeX 引用](paper/citation.bib) · [相关专利申请](#相关专利申请)
 
 ## 论文信息与版本状态
 
@@ -11,6 +11,20 @@
 - 文稿标注 Yufan Han 与 Guoxiang Jiang 为同等贡献，Qing Mi 为通讯作者。
 - 单位：Beijing University of Technology（北京工业大学）。
 - **当前上传版本为草稿**：PDF 仍包含会议模板、DOI、部分实验数值及引用占位符，不能据此认定已正式发表。引用条目按未发表文稿记录，不填写虚构会议或 DOI。
+
+## 相关专利申请
+
+本研究相关成果已申请中国发明专利，申请公开信息如下：
+
+- **名称（公开索引英文题名）**：*Long code abstract generation method based on structure-guided sparse attention mechanism*。
+- **申请人**：北京工业大学（Beijing University of Technology）。
+- **发明人（按公开索引顺序）**：Qing Mi、Guoxiang Jiang、Yufan Han。
+- **申请号**：`202511202527.7`。
+- **申请公开号**：`CN121029230A`。
+- **申请日 / 申请公布日**：2025-08-26 / 2025-11-28。
+- **公开查询**：[专利申请公开信息（Patsnap）](https://eureka.patsnap.com/patent/CN121029230A) · [发明人及申请信息（韩国国家知识平台）](https://k-knowledge.kr/srch/read.jsp?id=281284475)。
+
+本节记录的是专利申请公开信息；所附 SABCS 论文仍为未发表草稿。
 
 ## 方法概要
 
